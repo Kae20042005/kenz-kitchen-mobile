@@ -1,16 +1,23 @@
-# kenz_kitchen_mobile
+# Jawaban Tugas 7
 
-A new Flutter project.
+1) stateless Widget adalah widget yang tidak memiliki state yang dapat berubah setelah widget dibuat. Sehingga tampilan data di dalam widget tidak akan berubah kecuali widget diinisiasi ulang. Sedangkan stateful widget adalah widget yang dapat berubah-ubah sesuai dengan state yang dimilikinya. Sehingga tampilan data di dalam widget dapat diperbarui selama runtime.
 
-## Getting Started
+2) 
+- Scaffold: Merupakan struktur dasar halaman
+- Container: Mengatur tata letak elemen di aplikasi
+- Appbar: Header halaman
+- Padding: Mengatur jarak antar widget anak
+- Column: Menyusun widget secara vertikal
+- Row: Menyusun widget secara horizontal
+- Icon: Menampilkan Icon
+- Card: Menampilkan elemen
+- Text: Menampilkan Teks
 
-This project is a starting point for a Flutter application.
+3) setState() digunakan dalam StatefulWidget untuk memperbarui state widget secara dinamis. Ketika setState() dipanggil, Flutter akan merender ulang widget yang dipengaruhi oleh perubahan state, sehingga tampilan dapat diperbarui sesuai perubahan data.
 
-A few resources to get you started if this is your first Flutter project:
+4) const digunakan untuk mendeklerasikan variabel pada waktu kompilasi. Sedangkan final digunakan untuk mendeklerasikan variabel yang nilainya diinisialisasi satu kali saja.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5) 
+- Program Flutter pertama kali diinisiasi dengan flutter create.
+- Penambahan button dapat dilakukan dengan membuat list kelas ItemHomepage
+- Membuat button dengan warna yang berbeda dapat dilakukan dengan cara menambahkan parameter color pada ItemHomepage sehingga setiap item memiliki warna yang unik. Kemudian, pada child container dapat diatur warnanya sesuai dengan warna yang dimiliki oleh object ItemHomePage.
