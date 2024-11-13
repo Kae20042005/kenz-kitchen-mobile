@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kenz_kitchen_mobile/menu.dart';
+import 'package:kenz_kitchen_mobile/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,9 +29,8 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-         colorScheme: ColorScheme.fromSwatch(
-       primarySwatch: Colors.brown,
- ).copyWith(secondary: Colors.brown[400]),
+        colorScheme: ColorScheme.fromSwatch(
+          primarySwatch: Colors.brown).copyWith(secondary: Colors.brown[400]),
         useMaterial3: true,
       ),
       home: MyHomePage(),
