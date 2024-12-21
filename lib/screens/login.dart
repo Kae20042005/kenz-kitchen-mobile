@@ -164,7 +164,7 @@ class _LoginPageState extends State<LoginPage> {
                       );
                     },
                     child: Text(
-                      'Don\'t have an account? Register',
+                      'Dont have an account? Register',
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.primary,
                         fontSize: 16.0,
